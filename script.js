@@ -1,4 +1,3 @@
-/****
 // Find Max
 const findMax = (grades) => {
     let max = grades[0];
@@ -24,8 +23,6 @@ const tryRemoveFromArray = (array, n) => {
 }
 
 tryRemoveFromArray(grades, 90)
-
-****/
 
 // Check if an integer is in Fibonacci
 const isSquare = (number) => {
