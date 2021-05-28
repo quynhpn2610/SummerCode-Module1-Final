@@ -26,7 +26,7 @@ tryRemoveFromArray(grades, 90)
 
 // Check if an integer is in Fibonacci
 const isSquare = (number) => {
-    return number > 0 && Math.pow(Math.sqrt(number), 2) == number;
+    return number > 0 && Math.pow(Math.sqrt(number), 2) === number;
 }
 
 const isFibonacci = (n) => {
