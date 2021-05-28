@@ -6,7 +6,8 @@ const findMax = (grades) => {
         currentNumb = grades[i]
         max = Math.max(max, currentNumb)
         }
-    return console.log(max)
+    console.log(max)
+    return
 }
 
 findMax(grades = [89, 45, 120, 90, 68, 90, 78, 54, 99]);
@@ -19,7 +20,8 @@ const tryRemoveFromArray = (array, n) => {
             array.splice(i, 1) // remove 1 item at array's position i
         }
     }
-    return console.log(array)
+    console.log(array)
+    return
 }
 
 tryRemoveFromArray(grades, 90)
@@ -31,10 +33,12 @@ const isSquare = (number) => {
 
 const isFibonacci = (n) => {
     if(isSquare(5*(Math.pow(n,2))-4) || isSquare(5*(Math.pow(n, 2))+4)){
-        return console.log(true)
+        console.log(true)
+        return
     }
     else{
-        return console.log(false)
+        console.log(false)
+        return
     }
 }
 isFibonacci(8)
